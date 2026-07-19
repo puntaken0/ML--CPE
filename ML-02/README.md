@@ -7,9 +7,10 @@
 * **Microsoft_stock_history.csv**: ชุดข้อมูลดิบราคาหุ้น Microsoft (ช่วงปี 1986 - 2026)
 
 ## การทำงานของระบบ
-1. **Data Exploration & Visualization**: ตรวจสอบโครงสร้างข้อมูลเบื้องต้น พล็อตกราฟ Histogram ดูการกระจายตัวของราคาหุ้น และทำ Heatmap เพื่อดูค่า Correlation ของแต่ละฟีเจอร์
-2. **Data Cleaning**: จัดการแปลงชนิดข้อมูลคอลัมน์ Date, ตรวจสอบและจัดการค่าสูญหาย (Null Values) และข้อมูลซ้ำ (Duplicates)
-3. **Feature Engineering**: ทำการแปลงข้อมูลประเภทข้อความ (Categorical Data) ให้อยู่ในรูปตัวเลขด้วยวิธี Label Encoding และ One-Hot Encoding เพื่อเตรียมพร้อมสำหรับนำไปเทรนโมเนล AI
+1. **Data Exploration** : ตรวจสอบโครงสร้างข้อมูลเบื้องต้น
+2. **Visualization**: พล็อตกราฟ Histogram ดูการกระจายตัวของราคาหุ้น และทำ Heatmap เพื่อดูค่า Correlation ของแต่ละฟีเจอร์
+3. **Data Cleaning**: จัดการแปลงชนิดข้อมูลคอลัมน์ Date, ตรวจสอบและจัดการค่าสูญหาย (Null Values) และข้อมูลซ้ำ (Duplicates)
+4. **Feature Engineering**: ทำการแปลงข้อมูลประเภทข้อความ (Categorical Data) ให้อยู่ในรูปตัวเลขด้วยวิธี Label Encoding และ One-Hot Encoding เพื่อเตรียมพร้อมสำหรับนำไปเทรนโมเนล AI
 
 ## แหล่งที่มาของข้อมูล (Data Credit)
 * **Dataset**: Microsoft Stock Details - Updated Regularly
